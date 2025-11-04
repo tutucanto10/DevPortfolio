@@ -1,16 +1,120 @@
-# React + Vite
+# 🌐 DevPortfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An interactive and responsive **developer portfolio** built with **React**, **Vite**, and **TailwindCSS**.  
+This project showcases the work, skills, and experience of **Artur Canto**, with a modern design inspired by the *Tokyo Night* theme, smooth animations, and bilingual support (**English/Portuguese**).
 
-Currently, two official plugins are available:
+> 🧠 The site dynamically integrates GitHub data, allowing automatic updates of projects and repositories.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🚀 Live Demo
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+🔗 [https://devportfolio.vercel.app](https://devportfolio.vercel.app)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🧩 Features
+
+- 🌗 **Dark/Light mode toggle** with persistent user preferences  
+- 🌍 **Bilingual support** (EN / PT) using `i18next`  
+- 💾 **Dynamic GitHub integration** for repositories and stats  
+- ⚡ Built with **React + Vite** for high performance  
+- 🎨 **TailwindCSS** with custom Tokyo Night theme  
+- 🧭 Smooth page transitions and animations via **Framer Motion**  
+- 📩 **Contact form** integrated with Formspree API  
+- 📄 Downloadable resume (English and Portuguese versions)  
+
+---
+
+## 🛠️ Tech Stack
+
+| Category | Technologies |
+|-----------|---------------|
+| **Frontend** | React, Vite, TailwindCSS, Framer Motion |
+| **State & Logic** | React Router, i18next |
+| **APIs** | GitHub REST API, Formspree |
+| **Hosting** | Vercel |
+| **Version Control** | Git & GitHub |
+
+---
+
+## 🧱 Project Structure
+
+DevPortfolio/
+├── public/
+│ ├── Artur_Canto_Desenvolvedor_Backend.pdf
+│ └── vite.svg
+├── src/
+│ ├── assets/
+│ ├── components/
+│ │ ├── Header.jsx
+│ │ ├── Footer.jsx
+│ │ └── ToggleTheme.jsx
+│ ├── i18n/
+│ │ ├── i18n.js
+│ │ ├── en.json
+│ │ └── pt.json
+│ ├── pages/
+│ │ ├── Home.jsx
+│ │ ├── About.jsx
+│ │ ├── Projects.jsx
+│ │ └── Contact.jsx
+│ ├── services/
+│ │ └── github.js
+│ ├── App.jsx
+│ ├── main.jsx
+│ └── index.css
+└── package.json
+
+---
+
+## ⚙️ Installation
+
+Clone the repository and install dependencies:
+
+```bash
+git clone https://github.com/tutucanto10/DevPortfolio.git
+cd DevPortfolio
+npm install
+
+Run the development server:
+
+npm run dev
+
+---
+
+Build for production:
+
+npm run build
+
+---
+
+Preview the production build locally:
+
+npm run preview
+
+---
+
+🌍 Deployment
+
+This project is hosted on Vercel.
+Each git push automatically triggers a new deployment build.
+
+You can deploy your own version by:
+
+Forking this repository
+
+Importing it to Vercel
+
+Setting the build command as npm run build
+
+Setting the output directory as dist
+
+---
+
+🧑‍💻 Author
+
+Artur Canto
+💼 Back-End Developer | Automation & System Integration Enthusiast
+📍 Rio de Janeiro, Brazil
+
