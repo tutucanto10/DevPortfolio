@@ -49,7 +49,7 @@ export default function About() {
       <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 0.4 }} className="flex flex-col items-center gap-8">
         <div className="flex flex-wrap justify-center gap-4">
           <a
-            href="/Artur_Canto_Desenvolvedor_Backend.pdf"
+            href="/Artur_Canto_Backend_Developer.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className="bg-night-accent hover:bg-night-pink text-white px-6 py-3 rounded-md font-semibold transition transform hover:scale-105"
