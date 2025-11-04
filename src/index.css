@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+@theme {
+  --color-night-bg: #1a1b27;
+  --color-night-surface: #24283b;
+  --color-night-accent: #7aa2f7;
+  --color-night-pink: #bb9af7;
+}
+
+html, body {
+  background-color: var(--color-night-bg);
+  color: #e5e7eb; /* text-gray-200 */
+  font-family: Inter, sans-serif;
+  transition: color 0.3s, background-color 0.3s;
+}

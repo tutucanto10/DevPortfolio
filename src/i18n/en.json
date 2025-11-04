@@ -1,0 +1,41 @@
+{
+  "header": {
+    "home": "Home",
+    "about": "About",
+    "projects": "Projects",
+    "contact": "Contact",
+    "view_in_portuguese": "Ver em Português"
+  },
+  "home": {
+    "title": "Artur Canto",
+    "subtitle": "Full-Stack Developer • Python • React • Node.js • Supabase",
+    "button": "View GitHub"
+  },
+  "about": {
+    "title": "About Me",
+    "intro": "I'm Artur Canto, a Back-end Python developer passionate about automation, efficiency, and product growth. I focus on solving problems, delivering fast, measuring results, and continuously improving solutions. I've developed internal systems, e-commerce websites, and automations that eliminated manual processes. Always learning, always building.",
+    "journey_title": "My Journey",
+    "journey_items": [
+      "🚀 2022: Completed my technical course and built my first web projects with Django and React",
+      "🎓 2023 — present: Studying Computer Science at Universidade Veiga de Almeida (UVA)",
+      "⚙️ 2024: IT Technician at Infinix Tech • App development and corporate support",
+      "🧩 2025 — current: IT Analyst at DOMMA Inc. • Developing and automating internal systems",
+      "🚀 2025: Created the 'Controle de Estoque T.I.' system (Python + PostgreSQL + CustomTkinter); ScoreBet development"
+    ],
+    "stack_title": "Stack & Tools",
+    "resume_view": "👀 View Resume",
+    "resume_download": "📄 Download Resume"
+  },
+  "projects": {
+    "title": "Recent Projects",
+    "loading": "Loading projects...",
+    "stats_title": "My GitHub Stats"
+  },
+  "contact": {
+    "title": "Let's Talk 💬",
+    "subtitle": "Got an idea, project, or proposal? I'm always open to collaborations, freelance work, and new opportunities. Reach out and let’s build something amazing together! 🚀",
+    "email_label": "Your email:",
+    "message_label": "Your message:",
+    "send_button": "Send Message"
+  }
+}
